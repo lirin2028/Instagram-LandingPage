@@ -1,0 +1,138 @@
+body {
+  color: #262626;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 800px;
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
+  margin: 120px auto 130px;
+  margin-top: 120px;
+}
+
+.pitch {
+  height: 618px;
+  background: url(imagens/phone.png) no-repeat;
+}
+.pitch img {
+  position: absolute;
+  margin-top: 23px;
+  margin-left: 156px;
+}
+
+.form {
+  margin-top: 26px;
+  text-align: center;
+}
+.form form {
+  margin-bottom: 10px;
+  border: 1px solid rgb(219, 219, 219);
+  background-color: #ffffff;
+  padding: 20px 40px;
+}
+.form .logo {
+  margin-bottom: 20px;
+}
+.form input {
+  height: 36px;
+  font-size: 14px;
+  color: #262626;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  margin-bottom: 12px;
+  padding: 0 8px;
+  border-radius: 3px;
+}
+.form button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  height: 30px;
+  background-color: #0195F6;
+  border-radius: 4px;
+  border: 0px;
+  width: 100%;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 12px;
+}
+.form button:disabled {
+  background-color: #b2dffc;
+}
+.form .separator {
+  color: #8e8e8e;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  margin: 16px 0px 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form .separator::before, .form .separator::after {
+  content: "";
+  width: 106px;
+  height: 1px;
+  display: block;
+  background-color: #dbdbdb;
+}
+.form .login-with-facebook {
+  color: #385185;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin: 0 auto 18px;
+  font-size: 12px;
+  justify-content: center;
+}
+.form .forgot-password {
+  color: #00376b;
+  font-size: 13px;
+}
+.form .signup {
+  font-size: 14px;
+  border: 1px solid #dbdbdb;
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.form .signup a {
+  font-weight: bold;
+  color: #0095f6;
+}
+.form .get-app p {
+  font-size: 14px;
+  text-align: center;
+}
+.form .get-app img {
+  width: 136px;
+}
+
+.footer {
+  text-align: center;
+  width: 680px;
+  margin: 0 auto;
+  color: #8e8e8e;
+}
+.footer .links {
+  margin-bottom: 10px;
+}
+.footer .links a {
+  color: #8e8e8e;
+  font-size: 12px;
+  display: inline-block;
+  margin: 0 6px 10px;
+}/*# sourceMappingURL=style.css.map */
